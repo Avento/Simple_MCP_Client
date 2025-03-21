@@ -1,0 +1,9 @@
+# 敏感文件
+.env
+test.db
+servers_config.json
+
+# 开发环境文件
+.venv/
+__pycache__/
+*.pyc

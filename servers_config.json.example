@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "C:\\Users\\ABCD\\scoop\\apps\\nodejs\\current\\node.exe",
+      "args": [
+        "C:\\Users\\ABCD\\scoop\\persist\\nodejs\\bin\\node_modules\\@modelcontextprotocol\\server-filesystem\\dist\\index.js",
+        "D:\\YOUR_DIR"
+      ]
+    }
+  }
+}
