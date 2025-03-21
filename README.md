@@ -13,7 +13,7 @@ A simple chatbot implementation using the Model Context Protocol (MCP) to intera
 ## Requirements
 
 - Python 3.10+
-- [Poetry](https://python-poetry.org/) (recommended)
+- uv
 - MCP server configuration
 
 ## Installation
@@ -68,10 +68,7 @@ LLM_MODEL_ID=deepseek-chat
   "mcpServers": {
     "server-name": {
       "command": "npx",
-      "args": ["@modelcontextprotocol/server-name"],
-      "env": {
-        "API_KEY": "your-server-api-key"
-      }
+      "args": ""
     }
   }
 }
